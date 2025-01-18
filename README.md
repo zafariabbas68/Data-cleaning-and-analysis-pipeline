@@ -47,6 +47,18 @@ Using a basic feed-forward neural network for multi-class classification, the cl
 
 The project successfully demonstrated the importance of data cleaning in enhancing the efficiency of analysis, providing a replicable and adaptable pipeline for complex datasets.
 
+
+### Correlation Heatmap
+
+![Correlation Heatmap](correlation_heatmap.png)
+
+The correlation heatmap above illustrates the relationships between various features in the CRIMES dataset. The heatmap uses color intensity to represent the strength of correlation, where:
+- **Darker colors** indicate a stronger correlation.
+- **Lighter colors** indicate a weaker or no correlation.
+
+Notably, the `Lat` (Latitude) and `Long` (Longitude) features show a significant correlation, which is expected in geospatial data. This heatmap is a valuable tool in identifying potential feature relationships, helping guide feature selection and engineering steps in the data analysis pipeline.
+
+
 ## Authors
 
 - Roman Jules Tiédrez
