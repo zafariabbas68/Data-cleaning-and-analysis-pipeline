@@ -39,13 +39,15 @@ Using a basic feed-forward neural network for multi-class classification, the cl
 
 ### Crimes per Month
 
-![Crimes per Month](relative_path_to_crimes_per_month.png)
+![Crimes per Month (Alternative)](Crimes_per%20months.png)
+
 
 This figure shows the distribution of crimes across months. It highlights seasonal trends and potential high-activity periods for crimes, which can guide further investigations or resource allocation.
 
 ### Crimes per Month (Alternative Visualization)
 
-![Crimes per Month (Alternative)](relative_path_to_crimes_per_month_alternative.png)
+![Crimes per Month](Crimes%20per%20months.png)
+
 
 An alternative visualization of the same data, providing different insights or representations that complement the primary analysis.
 
