@@ -1,4 +1,3 @@
-
 # Data Cleaning and Analysis Pipeline for the CRIMES Dataset
 
 ## Project Overview
@@ -38,6 +37,18 @@ Using a basic feed-forward neural network for multi-class classification, the cl
 - **Test Accuracy**: 0.91 (cleaned) vs. 0.84 (messy)
 - **Precision, Recall, and F1 Score**: All metrics improved with the cleaned dataset.
 
+### Crimes per Month
+
+![Crimes per Month](relative_path_to_crimes_per_month.png)
+
+This figure shows the distribution of crimes across months. It highlights seasonal trends and potential high-activity periods for crimes, which can guide further investigations or resource allocation.
+
+### Crimes per Month (Alternative Visualization)
+
+![Crimes per Month (Alternative)](relative_path_to_crimes_per_month_alternative.png)
+
+An alternative visualization of the same data, providing different insights or representations that complement the primary analysis.
+
 ## Challenges and Future Directions
 
 - **Resource Limitations**: The dataset's size constrained some techniques, which could be improved with better infrastructure.
@@ -46,7 +57,6 @@ Using a basic feed-forward neural network for multi-class classification, the cl
 ## Conclusion
 
 The project successfully demonstrated the importance of data cleaning in enhancing the efficiency of analysis, providing a replicable and adaptable pipeline for complex datasets.
-
 
 ### Correlation Heatmap
 
@@ -58,7 +68,6 @@ The correlation heatmap above illustrates the relationships between various feat
 
 Notably, the `Lat` (Latitude) and `Long` (Longitude) features show a significant correlation, which is expected in geospatial data. This heatmap is a valuable tool in identifying potential feature relationships, helping guide feature selection and engineering steps in the data analysis pipeline.
 
-
 ## Authors
 
 - Roman Jules Tiédrez
@@ -68,4 +77,3 @@ Notably, the `Lat` (Latitude) and `Long` (Longitude) features show a significant
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
